@@ -43,7 +43,7 @@ BlotTool accepts a blot image (PNG/TIF) and a CSV file of ROI definitions (`labe
 - background ROI statistics
 - background-corrected integrated density
 
-An overlay image with ROIs drawn is generated for documentation. The tool includes a Python API and CLI. The codebase includes modular components (`io`, `measure`, `visualize`, `cli`) and a complete pytest suite.
+An overlay image with ROIs drawn is generated for documentation. The tool includes a Python API and CLI. The codebase includes modular components (`io`, `measure`, `visualize`, `cli`) and a complete pytest suite (`tests/test_basic.py`, `tests/test_cli.py`, `tests/test_measure.py`).
 
 # Validation
 
