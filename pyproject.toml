@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "blottool"
+version = "0.1.0"
+description = "Scriptable western blot densitometry validated against FIJI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Matthew T. Sanders", email = "matthew.33.sand@gmail.com" }
+]
+keywords = ["western blot", "image analysis", "densitometry", "FIJI", "reproducible research"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-image",
+  "matplotlib",
+]
+
+[project.scripts]
+blottool = "blottool.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/matthew-sanders5/blottool"
+Documentation = "https://github.com/matthew-sanders5/blottool"
+Source = "https://github.com/matthew-sanders5/blottool"
+Tracker = "https://github.com/matthew-sanders5/blottool/issues"
