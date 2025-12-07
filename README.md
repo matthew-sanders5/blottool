@@ -122,5 +122,3 @@ DOI will be added upon acceptance.
 ## License
 
 Released under the MIT license. See LICENSE for details.
-# blottool
-# blottool
