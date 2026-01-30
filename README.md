@@ -19,7 +19,7 @@ It performs reproducible band quantification using user-defined rectangular ROIs
 - Overlay images for documentation  
 - Validation against FIJI (included)
 
-The tool is designed as a modern replacement for manual, error-prone clicking in FIJI/ImageJ, especially for labs that need batch processing, pipeline integration, or fully transparent quantification.
+The tool is designed as a reproducible, scriptable workflow that formalizes common densitometry practice typically performed in FIJI/ImageJ, especially for labs that need batch processing, pipeline integration, or fully transparent quantification.
 
 ---
 
