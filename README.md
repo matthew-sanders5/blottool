@@ -115,9 +115,7 @@ BlotTool solves this by providing a simple, fully scriptable workflow that ensur
 
 If you use BlotTool in published research, please cite:
 
-Sanders MT. (2025). BlotTool: A reproducible command-line toolkit for western blot densitometry.
-
-DOI will be added upon acceptance.
+Sanders MT. (2026). BlotTool: A reproducible command-line toolkit for western blot densitometry (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.18870068
 
 ## License
 
